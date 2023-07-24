@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galle</title>
+    <link rel="stylesheet" href="./styles/destination.css" />
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two&display=swap" rel="stylesheet">
+  
+  </head>
+  <style>
+    .navbar {
+      overflow: hidden;
+      font-family: Arial;
+    }
+
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; 
+      margin: 0;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #8aef9b; 
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+
+    .dropdown-content a:hover {
+      background-color: #ffffff;
+    }
+
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+</style>    
+</head>
+<body>
+<nav class="navbar" >
+  <div style="display: flex; align-items: center;">
+    <a class="navbar-brand custom-font" href="../../index.html" style="color: yellow; font-size: 22px; padding: 18px;">Love Sri Lanka</a>
+    <div style="margin-left: 500px;" class="dropdown">
+      <button class="dropbtn">Destinations
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a class="dropdown-item" href="../colombo/colombo.html">Colombo</a>
+                  <a class="dropdown-item" href="../Hikkaduwa/Hikkaduwa.html">Hikkaduwa</a>
+                  <a class="dropdown-item" href="../Galle/Galle.html">Galle</a>
+                  <a class="dropdown-item" href="../Kandy/kandy.html">Kandy</a>
+                  <a class="dropdown-item" href="../Jaffna/jaffna.html">Jaffna</a>
+                  <a class="dropdown-item" href="../Nuwara Eliya/nuwaraeliya.html">Nuwara Eliya</a>
+      </div>
+      
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Activities
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a class="dropdown-item" href="../../Key experience/History & Culture.html">History and Culture</a>
+        <a class="dropdown-item" href="../../Key experience/Adventures.html">Adventure</a>
+         <a class="dropdown-item" href="../../Key experience/Beach Holidays.html">Beach Holidays</a>
+         <a class="dropdown-item" href="../../Key experience/Seasonal Festivals.html">Seasonal Activities</a>
+      </div>
+      
+    </div>
+    <div  class="dropdown">
+      <button class="dropbtn">Regional Cuisine
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a class="dropdown-item" href="../../sri_lankan_food.html">Sri Lankan</a>
+         <a class="dropdown-item" href="../../international_food.html">International</a>
+      </div>
+      
+    </div>
+    <div class="dropdown">
+      <a href="../../about_us.html"><button class="dropbtn">About US
+        <i class="fa fa-caret-down"></i>
+      </button></a>
+    
+      
+    </div>
+
+
+  </div>
+</nav>
+    <div class="body-content">
+      <h1 class="heading">Galle</h1>
+      <p class="details">
+        A historical city located in Southwestern Sri Lanka is an Asian tourist
+        haven today and many are flocking from around the world to this
+        beautiful place! A stunning fort, Dutch colonial architecture and
+        beaches; there is no shortage of places to visit in Galle and around.
+        Whether you are an artist, a poet, a photographer or something else; you
+        will fall in love with Sri Lanka! So, if you are planning a visit to
+        Galle, Sri Lanka this year, don't worry about the best experiences.
+      </p>
+      <br />
+      <!-- Container for the image gallery -->
+      <div class="container">
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">A historical place should not miss</div>
+          <img src="Galle.jpeg" style="width: 100%; height: 45vw" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">Evening sun set</div>
+          <img
+            src="galle-beach-sunset-cover.jpeg"
+            style="width: 100%; height: 45vw"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">Galle fort</div>
+          <img src="fort.jpeg" style="width: 100%; height: 45vw" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">Churches</div>
+          <img
+            src="All Saints' Church.jpeg"
+            style="width: 100%; height: 45vw"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">museums</div>
+          <img src="museum.webp" style="width: 100%; height: 45vw" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">Handy Crafts</div>
+          <img src="shopping.jpeg" style="width: 100%; height: 45vw" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="Galle.jpeg"
+              style="width: 100%; height: 10vw"
+              onclick="currentSlide(1)"
+              alt="A historical place should not miss"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="galle-beach-sunset-cover.jpeg"
+              style="width: 100%; height: 10vw"
+              onclick="currentSlide(2)"
+              alt="Evening sun set"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="fort.jpeg"
+              style="width: 100%; height: 10vw"
+              onclick="currentSlide(3)"
+              alt="Galle fort"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="All Saints' Church.jpeg"
+              style="width: 100%; height: 10vw"
+              onclick="currentSlide(4)"
+              alt="Churches"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="museum.webp"
+              style="width: 100%; height: 10vw"
+              onclick="currentSlide(5)"
+              alt="museums"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="shopping.jpeg"
+              style="width: 100%; height: 10vw"
+              onclick="currentSlide(6)"
+              alt="Handy Crafts"
+            />
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <h1 class="heading">Accomodations</h1>
+      <p class="details"></p>
+      <br />
+      <table class="card-area">
+        <tr>
+          <td>
+            <div class="card">
+              <img src="119541010.jpeg" alt="John" class="card-image" />
+              <h1>Jetwing Lighthouse</h1>
+              <p class="card-para">
+                Boasting beautiful views of the Indian Ocean, the hilltop
+                Jetwing Lighthouse is 2 km from Galle’s centre. Minimalistic and
+                elegant, this luxurious colonial-style hotel features 4 dining
+                options, 2 outdoor pools, and a spa. Jetwing’s spacious rooms
+                have a private balcony and a dressing room. Each room has cable
+                TV, a DVD player, and tea/coffee making facilities. The attached
+                bathroom is fitted with a bathtub and shower. Guests can join a
+                yoga class, exercise in the gym, or play tennis. The hotel
+                arranges whale watching trips and city tours. Services include
+                laundry, car rental and currency exchange. Wi-Fi is free
+                throughout the hotel. Open 24 hours, Cardamom Café offers light
+                meals and refreshments. Anchor Bar and Grill serves sandwiches
+                and grilled dishes. Coats of Arm Bar features a pool table and
+                library, as well as sweeping ocean views. Jetwing Lighthouse is
+                146 km from Colombo’s Bandaranaike International Airport. It is
+                easily accessible from attractions like Galle Fort, Galle
+                Markets and the shopping street.
+              </p>
+              <div style="margin: 24px 0">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </div>
+              <a href="https://www.jetwinghotels.com/jetwinglighthouse/#gref"
+                ><button class="visit-web-btn">Visit Website</button></a
+              >
+            </div>
+          </td>
+          <td>
+            <div class="card">
+              <img src="421604755.jpeg" alt="John" class="card-image" />
+              <h1>Radisson Blu Resort Galle</h1>
+              <p class="card-para">
+                Located in the historic fort city of Galle on the southern coast
+                of Sri Lanka, Radisson Blu Resort, Galle is a luxury resort
+                featuring rooms and suites, an outdoor pool with a pool bar, spa
+                and fitness centre. All rooms boast of a direct view of the
+                Indian Ocean, carefully designed to offer living spaces with a
+                40-inch LED TV, complimentary Wi-Fi, work desk, mini bar, tea
+                and coffee making and ironing facilities. The bathrooms offer a
+                rain shower, complimentary toiletries, bathrobe and bath
+                slippers and hair dryers. Fusion is Radisson Blu Resort, Galle’s
+                signature all-day dining restaurant serving a buffet breakfast.
+                A range of Asian and International cuisine is prepared from live
+                cooking stations using only fresh and hand-picked produce, and
+                is available for lunch and dinner. Bommu Rooftop Bar offers a
+                panoramic view of the surroundings along with cocktails and
+                finger foods.
+              </p>
+
+              <div style="margin: 24px 0">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </div>
+              <a
+                href="https://www.radissonhotels.com/en-us/hotels/radisson-blu-galle"
+                ><button class="visit-web-btn">Visit Website</button></a
+              >
+              <i class="fa fa-star rating-color"></i>
+              <i class="fa fa-star rating-color"></i>
+              <i class="fa fa-star rating-color"></i>
+              <i class="fa fa-star rating-color"></i>
+              <i class="fa fa-star"></i>
+
+              <br />
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+
+<!-- Script for slideshow -->
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides((slideIndex += n));
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides((slideIndex = n));
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+  }
+</script>

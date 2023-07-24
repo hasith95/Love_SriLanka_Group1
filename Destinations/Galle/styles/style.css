@@ -1,0 +1,181 @@
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    size: 10px;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgb(11, 79, 0);
+}
+
+.dropdown-toggle-no-caret::after {
+     display: none;
+}
+
+
+
+.navbar .navbar-nav .dropdown-menu {
+    background-color: #8aef9b; 
+    /* Black background color for the dropdown menu */
+  }
+
+.custom-font{
+  font-family: Lobster Two;
+  font-size: 20px;
+}
+
+#hero {
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 110px);   
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.carousel{
+  border-radius: 10px;
+}
+
+.carousel-name {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(-70deg, rgb(10, 35, 162,0.9) 50%, rgb(19, 149, 32,0.9) 50%);
+    /* background-color: #48b3ff; */
+    border-radius: 80px;
+     
+  }
+
+.carousel-image{
+  border-radius: 10px;
+  opacity: 1;
+  transition-duration:0.2s;
+  transition-timing-function:ease-in;
+}
+
+.carousel-image:hover {
+    opacity: 0.9; 
+}
+
+
+.card-deck{
+    
+    padding: 20px;
+    height: 600px;
+    width:900px;
+}
+
+.card{
+    background-color: bisque; 
+    margin: 10px;
+}
+
+.card3{
+    background-color: rgba(245, 229, 85, 0.555); 
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.card4{
+    background-color: rgba(156, 255, 151, 0.388); 
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.card2{
+    text-align: center;
+    background: linear-gradient(
+        45deg,
+        hsla(168, 100%, 78%, 0.5),
+        hsla(263, 97%, 64%, 0.5) 100%
+      );
+    /* background-color: rgb(231, 255, 196);  */
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style:solid;
+    border-color:green;
+}
+
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    
+}
+
+form {
+    width: 80%;
+} 
+
+.footer-content{
+position: relative;    
+background: #320067;    
+height: 120px;
+color: #fff;
+text-align: center;
+}
+
+.socials{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;           
+}
+
+.socials li{
+    display: inline-block;
+    margin: 0 10px;
+   
+}
+
+.socials a{
+    display: inline-block;
+    font-size: larger;
+   
+   
+}
+
+.lighten-hover {
+     
+    transition-duration:0.2s;
+    transition-timing-function:ease-in;
+  }
+
+  .lighten-hover:hover {
+    opacity: 0.8; 
+  }
+
+
